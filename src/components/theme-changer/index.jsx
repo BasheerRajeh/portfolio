@@ -28,8 +28,8 @@ const ThemeChanger = ({ theme, setTheme, loading, themeConfig }) => {
             {loading
               ? skeleton({ width: 'w-16', height: 'h-5' })
               : theme === themeConfig.defaultTheme
-              ? 'Default'
-              : theme}
+                ? 'Default'
+                : theme}
           </span>
         </div>
         <div className="flex-0">
@@ -57,7 +57,7 @@ const ThemeChanger = ({ theme, setTheme, loading, themeConfig }) => {
               </div>
               <div
                 tabIndex={0}
-                className="mt-16 overflow-y-auto shadow-2xl top-px dropdown-content max-h-96 w-52 rounded-lg bg-base-200 text-base-content"
+                className="z-10 mt-16 overflow-y-auto shadow-2xl top-px dropdown-content max-h-96 w-52 rounded-lg bg-base-200 text-base-content"
               >
                 <ul className="p-4 menu compact">
                   {[
