@@ -54,6 +54,20 @@ const config = {
   ],
   experiences: [
     {
+      company: 'UEEx',
+      position: 'Backend Developer',
+      from: 'April 2023',
+      to: 'Present',
+      // companyLink: 'https://example.com',
+    },
+    {
+      company: 'MaskEX',
+      position: 'Backend Developer',
+      from: 'November 2021',
+      to: 'February 2023',
+      // companyLink: 'https://example.com',
+    },
+    {
       company: 'Independent',
       position: 'Self-Employed Freelancer',
       from: 'October 2022',
@@ -78,7 +92,7 @@ const config = {
     },
     {
       institution: 'Higher Institute for Applied Sciences and Technology',
-      degree: 'Bachelor',
+      degree: 'Bachelor of Science in Software Engineering',
       from: '2016',
       to: '2022',
     },
@@ -87,17 +101,31 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
+      title: 'GameHub',
+      description:
+        'React project fetching and displaying game details from rawg.io. Explore a vast collection of games, ratings, and reviews. Immerse yourself in interactive gaming experiences.',
+      imageUrl: 'https://react-game-hub.netlify.app/assets/logo-ff4914e6.webp',
+      link: 'https://react-game-hub.netlify.app/',
+    },
+    {
+      title: 'Masky Telegram Bot',
+      description:
+        'Telegram Bot Developed to MaskEX, Developed to delivered real-time cryptocurrency prices to users. The bot also tracked price changes and offered automated responses for an enhanced user experience.',
+      imageUrl: 'https://i.imgur.com/srhKMHf.jpeg',
+      link: 'https://t.me/maskyen_bot',
+    },
+    {
       title: 'Paloma Store',
       description:
         'Paloma Store is a beautiful, responsive, and static landing page designed for e-commerce and online stores.',
-      imageUrl: 'https://fancy-florentine-3ec9e1.netlify.app/logo@2x.f37acd5c.png',
+      imageUrl: 'https://i.imgur.com/TuJbgIC.png',
       link: 'https://fancy-florentine-3ec9e1.netlify.app/',
     },
     {
       title: 'Garden',
       description:
         'Garden static website repository. This website is created using HTML, CSS, and JavaScript, providing a responsive, beautiful, and professional design supporting both left-to-right (LTR) and right-to-left (RTL) languages',
-      imageUrl: 'https://dreamy-madeleine-299563.netlify.app/images/logo-garden.png',
+      imageUrl: 'https://i.imgur.com/vUE66AM.png',
       link: 'https://dreamy-madeleine-299563.netlify.app/index.html',
     },
   ],
