@@ -7,34 +7,40 @@ const config = {
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: ['react-testing', 'portfolio', 'freeCodeCamp', 'nextjs-notion-starter-kit'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: [
+        'react-testing',
+        'portfolio',
+        'freeCodeCamp',
+        'nextjs-notion-starter-kit',
+      ], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'muhammadbasheerrajeh',
+    website: 'https://www.cakeresume.com/basheer-rajeh',
+    email: 'muhammadbasheerrajeh@gmail.com',
+    phone: '+963 937 555 407',
+    facebook: 'muhammadbasheerrajeh',
+    telegram: 'muhammadbasheerrajeh',
+    linkedin: '',
     twitter: '',
     mastodon: '',
-    facebook: 'muhammadbasheerrajeh',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'basheer-rajeh',
+    medium: '',
     dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
-    telegram: 'muhammadbasheerrajeh',
-    website: '',
-    phone: '+963 937 555 407',
-    email: 'muhammadbasheerrajeh@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1Z461a5lnq5wMnknX44AHtSLbhBwCOPhs/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1xGG8LEhIhZ3EKnUQDigCYagaINsDqGy9/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     // 'PHP',
     // 'Laravel',
     'JavaScript',
+    'TypeScript',
     'React.js',
     'Node.js',
     'C#',
@@ -50,7 +56,7 @@ const config = {
     'HTML',
     'CSS',
     // 'Antd',
-    'Tailwind',
+    // 'Tailwind',
   ],
   experiences: [
     {
@@ -65,13 +71,6 @@ const config = {
       position: 'Backend Developer',
       from: 'November 2021',
       to: 'February 2023',
-      // companyLink: 'https://example.com',
-    },
-    {
-      company: 'Independent',
-      position: 'Self-Employed Freelancer',
-      from: 'October 2022',
-      to: 'Present',
       // companyLink: 'https://example.com',
     },
   ],
@@ -92,7 +91,7 @@ const config = {
     },
     {
       institution: 'Higher Institute for Applied Sciences and Technology',
-      degree: 'Bachelor of Science in Software Engineering',
+      degree: 'Bachelor of Engineering in Software Engineering',
       from: '2016',
       to: '2022',
     },
