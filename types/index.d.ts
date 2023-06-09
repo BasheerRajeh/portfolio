@@ -60,6 +60,11 @@ export interface Social {
   facebook?: string;
 
   /**
+   * Leetcode
+   */
+  leetcode?: string;
+
+  /**
    * Instagram
    */
   instagram?: string;

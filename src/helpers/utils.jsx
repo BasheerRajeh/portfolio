@@ -35,9 +35,8 @@ export const skeleton = ({
 }) => {
   return (
     <div
-      className={`bg-base-300 animate-pulse ${shape}${
-        className ? ` ${className}` : ''
-      }${width ? ` ${width}` : ''}${height ? ` ${height}` : ''}`}
+      className={`bg-base-300 animate-pulse ${shape}${className ? ` ${className}` : ''
+        }${width ? ` ${width}` : ''}${height ? ` ${height}` : ''}`}
       style={style}
     />
   );
@@ -149,6 +148,7 @@ export const sanitizeConfig = (config) => {
       twitter: config?.social?.twitter,
       mastodon: config?.social?.mastodon,
       facebook: config?.social?.facebook,
+      leetcode: config?.social?.leetcode,
       instagram: config?.social?.instagram,
       dribbble: config?.social?.dribbble,
       behance: config?.social?.behance,

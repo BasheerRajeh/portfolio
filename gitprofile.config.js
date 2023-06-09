@@ -21,6 +21,7 @@ const config = {
     phone: '+963 937 555 407',
     facebook: 'muhammadbasheerrajeh',
     telegram: 'muhammadbasheerrajeh',
+    leetcode: 'BasheerRajeh',
     linkedin: '',
     twitter: '',
     mastodon: '',

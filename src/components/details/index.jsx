@@ -7,6 +7,7 @@ import {
 import { SiTwitter } from 'react-icons/si';
 import { CgDribbble } from 'react-icons/cg';
 import { RiPhoneFill, RiMailFill } from 'react-icons/ri';
+import { TbCode } from 'react-icons/tb';
 import { Fragment } from 'react';
 import {
   FaBehanceSquare,
@@ -125,6 +126,14 @@ const Details = ({ profile, loading, social, github }) => {
                   link={`https://twitter.com/${social.twitter}`}
                 />
               )}
+              {social?.leetcode && (
+                <ListItem
+                  icon={<TbCode />}
+                  title="Leetcode:"
+                  value={social.leetcode}
+                  link={`https://leetcode.com/${social.leetcode}`}
+                />
+              )}
               {social?.mastodon && (
                 <ListItem
                   icon={<FaMastodon />}
@@ -155,14 +164,6 @@ const Details = ({ profile, loading, social, github }) => {
                   title="Behance:"
                   value={social.behance}
                   link={`https://www.behance.net/${social.behance}`}
-                />
-              )}
-              {social?.facebook && (
-                <ListItem
-                  icon={<FaFacebook />}
-                  title="Facebook:"
-                  value={social.facebook}
-                  link={`https://www.facebook.com/${social.facebook}`}
                 />
               )}
               {social?.instagram && (
@@ -201,7 +202,7 @@ const Details = ({ profile, loading, social, github }) => {
                 <ListItem
                   icon={<FaGlobe />}
                   title="Website:"
-                  value={social.website}
+                  value={'Resume'}
                   link={social.website}
                 />
               )}
@@ -211,6 +212,14 @@ const Details = ({ profile, loading, social, github }) => {
                   title="Skype"
                   value={social.skype}
                   link={`skype:${social.skype}?chat`}
+                />
+              )}
+              {social?.facebook && (
+                <ListItem
+                  icon={<FaFacebook />}
+                  title="Facebook:"
+                  value={social.facebook}
+                  link={`https://www.facebook.com/${social.facebook}`}
                 />
               )}
               {social?.telegram && (
